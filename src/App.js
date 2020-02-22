@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Form, FormControl, Button, Image,Container , Row, Col, Card, Accordion, Table, Modal } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Form, FormControl, Button, Image,Container , Row, Col, Card, Accordion, Table } from 'react-bootstrap';
 // import Navigation from '../components/Navigation';
 import style from 'bootstrap/dist/css/bootstrap.css';
 
 
 class App extends Component {
   render() {
-     const [smShow, setSmShow] = React.useState(false);
     return (
 
 
@@ -47,7 +46,7 @@ class App extends Component {
             </Nav>
             <Form inline>
               <FormControl type="text" placeholder="Search My Soul" className="mr-sm-2" />
-              <Button variant="outline-success" onClick={() => setSmShow(true)}>Search</Button>
+              <Button variant="outline-success">Search</Button>
             </Form>
           </Navbar.Collapse>
         </Navbar>
@@ -63,7 +62,7 @@ class App extends Component {
               <br></br>
               <h3 id="about">About Me</h3>
 
-              <p>Currently I am an RA at SMU's Darwin Deason Institute. I am researching the cybersecurity implications of the latest machine learning methods. I'm completing a masters degree as well. </p>
+              <p>Currently I am an RA at SMU's Darwin Deason Institute. I am researching the cybersecurity implications of latest machine learning methods. I'm completing a masters degree as well. </p>
 
 
 
@@ -162,19 +161,6 @@ class App extends Component {
           </Container>
 
 
-          <Modal
-            size="sm"
-            show={smShow}
-            onHide={() => setSmShow(false)}
-            aria-labelledby="example-modal-sizes-title-sm"
-          >
-            <Modal.Header closeButton>
-              <Modal.Title id="example-modal-sizes-title-sm">
-                Small Modal
-              </Modal.Title>
-            </Modal.Header>
-            <Modal.Body>...</Modal.Body>
-          </Modal>
 
 
         </div>
