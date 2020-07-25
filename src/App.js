@@ -12,13 +12,7 @@ class App extends Component {
         <div className="App">
           <Navbar bg="light" expand="lg">
             <Navbar.Brand href="#home">
-            <img
-              src="https://www.smu.edu/-/media/Site/Lyle/images/Logos-and-Icons/LYLE,-d-,white,-d-,red-(002).png?la=en"
-              width="200"
-              height="30"
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
-            />
+            <h3>Aviraj Sinha</h3>
 
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -44,10 +38,7 @@ class App extends Component {
                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
               </NavDropdown>
             </Nav>
-            <Form inline>
-              <FormControl type="text" placeholder="Search My Soul" className="mr-sm-2" />
-              <Button variant="outline-success">Search</Button>
-            </Form>
+
           </Navbar.Collapse>
         </Navbar>
 
@@ -55,14 +46,29 @@ class App extends Component {
 
           <Container  style={{margin: "1rem"}}>
             <Row >
-              <Col md={3}><Image src={"https://www.gravatar.com/avatar/9020a135135fa4a298cf347feb6d1e90?s=200"} rounded /> </Col>
+              <Col md={3}><Image src={"https://www.gravatar.com/avatar/9020a135135fa4a298cf347feb6d1e90?s=200"} rounded />
+              <br/>
+              <a href = "mailto: avirajs@smu.edu">avirajs@smu.edu</a>
+
+              </Col>
 
               <Col>
-              <h2>Mr. Aviraj Sinha</h2>
-              <br></br>
-              <h3 id="about">About Me</h3>
 
-              <p>Currently I am an RA at SMU's Darwin Deason Institute. I am researching the cybersecurity implications of latest machine learning methods. I'm completing a masters degree as well. </p>
+              <h3 id="about">About Me</h3>
+              <h5 id="intro">Introduction</h5>
+
+              <p>
+              Hello, I'm Avi. I like the computer.
+              </p>
+
+
+              <h5 id="current">Currently</h5>
+
+              <p>
+              I am an RA at SMU's Darwin Deason Institute.
+              I am researching the cybersecurity implications of latest machine learning methods.
+               I'm completing a masters degree as well.
+              </p>
 
 
 
@@ -84,7 +90,7 @@ class App extends Component {
 
 
                 <h3 id="skills">Skills</h3>
-                <p>I have a very well-rounded skill set including a variety data science libraries, frontend frameworks, scripting and backend languages, and various IT network/cloud certifications </p>
+                <p>Skill set including a variety data science libraries, frontend frameworks, scripting and backend languages, and various IT network/cloud certifications </p>
                 <br/>
 
                 <Table hover>
