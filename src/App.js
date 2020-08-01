@@ -46,9 +46,22 @@ class App extends Component {
 
           <Container  style={{margin: "1rem"}}>
             <Row >
-              <Col md={3}><Image src={"https://www.gravatar.com/avatar/9020a135135fa4a298cf347feb6d1e90?s=200"} rounded />
-              <br/>
-              <a href = "mailto: avirajs@smu.edu">avirajs@smu.edu</a>
+
+
+              <Col md={3}>
+
+
+                <Card style={{ width: '18rem' }}>
+                  <Card.Img variant="top" src="https://www.gravatar.com/avatar/9020a135135fa4a298cf347feb6d1e90?s=200" />
+                  <Card.Body>
+                    <Card.Title>Avi Sinha</Card.Title>
+                    <Card.Text>
+                      <a href = "mailto: avirajs@smu.edu">avirajs@smu.edu</a>
+                    </Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
+                  </Card.Body>
+                </Card>
+
 
               </Col>
 
@@ -77,13 +90,7 @@ class App extends Component {
             </Row>
 
             <Row>
-              <Col md={3}>
-              <Nav className="flex-column" variant="buttons">
-                <Nav.Link href="#about">About Me</Nav.Link>
-                <Nav.Link href="#skills">Skills</Nav.Link>
-                <Nav.Link href="#pubs">Publications</Nav.Link>
-                </Nav>
-              </Col>
+            
 
 
               <Col>
