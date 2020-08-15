@@ -18,9 +18,6 @@ class App extends Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="https://www.linkedin.com/in/aviraj-sinha-798137149/?trk=uno-choose-ge-no-intent&dl=no">LinkedIn</Nav.Link>
-              <Nav.Link href="https://github.com/avirajs/Personal_Resume/blob/master/Aviraj_Sinha.pdf">Resume</Nav.Link>
-              <Nav.Link href="https://github.com/avirajs">Github</Nav.Link>
               <NavDropdown title="Latest Articles" id="basic-nav-dropdown">
                 <NavDropdown.Item href="https://www.linkedin.com/pulse/maximize-your-cyber-security-using-simple-economics-aviraj-sinha?articleId=6513240052506652672#comments-6513240052506652672&trk=public_profile_article_view">Maximizing Cybersecurity Using Simple Economics</NavDropdown.Item>
                 <NavDropdown.Item href="https://www.linkedin.com/pulse/unleashing-power-ruby-rails-aviraj-sinha/">Unleashing the Power of Ruby</NavDropdown.Item>
@@ -45,20 +42,20 @@ class App extends Component {
 
 
           <Container  style={{margin: "1rem"}}>
-            <Row >
+            <Row  md="auto">
 
 
-              <Col md={3}>
+              <Col md="3">
 
 
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '16rem'}}>
                   <Card.Img variant="top" src="https://www.gravatar.com/avatar/9020a135135fa4a298cf347feb6d1e90?s=200" />
                   <Card.Body>
-                    <Card.Title>Avi Sinha</Card.Title>
-                    <Card.Text>
-                      <a href = "mailto: avirajs@smu.edu">avirajs@smu.edu</a>
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+
+                    <Button variant="primary" size="sm" href = "mailto: avirajs@smu.edu" > Email</Button>{' '}
+                    <Button variant="secondary" size="sm" href = "https://www.linkedin.com/in/aviraj-sinha-798137149/?trk=uno-choose-ge-no-intent&dl=no" > LinkedIn</Button>{' '}
+                    <Button variant="success" size="sm" href = "https://github.com/avirajs" > Github</Button>
+
                   </Card.Body>
                 </Card>
 
@@ -67,21 +64,21 @@ class App extends Component {
 
               <Col>
 
-              <h3 id="about">About Me</h3>
-              <h5 id="intro">Introduction</h5>
+                <h3 id="about">About Me</h3>
+                <h5 id="intro">Introduction</h5>
 
-              <p>
-              Hello, I'm Avi. I like the computer.
-              </p>
+                <p>
+                Hello, I'm Avi. I like playing with computers.
+                </p>
 
 
-              <h5 id="current">Currently</h5>
+                <h5 id="current">Currently</h5>
 
-              <p>
-              I am an RA at SMU's Darwin Deason Institute.
-              I am researching the cybersecurity implications of latest machine learning methods.
-               I'm completing a masters degree as well.
-              </p>
+                <p>
+                I am an RA at SMU's Darwin Deason Institute.
+                I am researching the cybersecurity implications of latest machine learning methods.
+                 I'm completing a masters degree and have started PhD research.
+                </p>
 
 
 
@@ -89,9 +86,11 @@ class App extends Component {
 
             </Row>
 
-            <Row>
-            
+            <Row md="auto">
 
+              <Col md={3}>
+
+              </Col>
 
               <Col>
 
@@ -126,9 +125,6 @@ class App extends Component {
 
 
               </Col>
-
-
-
 
             </Row>
 
