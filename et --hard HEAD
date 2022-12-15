@@ -1,0 +1,71 @@
+[33mcommit 7a0f9af4a1b92aa115fa24bc0aa28b99ce64f5f1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Avi <avirajs@smu.edu>
+Date:   Sat Aug 1 17:23:57 2020 -0500
+
+    Add card
+
+[33mcommit 082dd6709eb402a7cb638412ee63230938ceebf9[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Avi <avirajs@smu.edu>
+Date:   Sat Jul 25 17:30:55 2020 -0500
+
+    Add new text for headers and descriptions
+
+[33mcommit 5eb4a72bc564e784326454955199766866fe45c0[m
+Author: Avi <avirajs@smu.edu>
+Date:   Sat Jul 11 22:52:30 2020 -0500
+
+    Add google analytics tracking
+
+[33mcommit c6a69dd790cece62e8df2fe9c0f1809c2b2aa5fe[m
+Author: Avi <avirajs@smu.edu>
+Date:   Sat Jul 11 22:18:53 2020 -0500
+
+    remove logo
+
+[33mcommit 582da785762f4acefa3c14727234727bb5fefad4[m
+Author: Avi <avirajs@smu.edu>
+Date:   Sat Jul 11 22:16:19 2020 -0500
+
+    Change title in tab from react default to name
+
+[33mcommit cc9bf8a01895ad8420e8973e6f6ab62bc51a8f48[m
+Author: Avi <avirajs@smu.edu>
+Date:   Sat Jul 11 21:47:19 2020 -0500
+
+    Rename site from online-profile to profile
+
+[33mcommit 92ed92d288f0e22a3a5f3cf7280cc3898442cc39[m
+Author: Avi <avirajs@smu.edu>
+Date:   Fri Feb 21 23:54:20 2020 -0600
+
+    yes
+
+[33mcommit 53e4dbd495068693240c80ca65fabcfb560d075f[m
+Author: Avi <avirajs@smu.edu>
+Date:   Fri Feb 21 23:44:28 2020 -0600
+
+    Fix grammar
+
+[33mcommit 5d0754254ad607b31ddce0a6a05d6efdc64e1e81[m
+Author: Avi <avirajs@smu.edu>
+Date:   Fri Feb 21 23:30:53 2020 -0600
+
+    Finish adding basics
+
+[33mcommit aa17f6d006564842aeb80d5cb68b1bbef5a49a43[m
+Author: Avi <avirajs@smu.edu>
+Date:   Fri Feb 21 15:48:45 2020 -0600
+
+    Fix syntac
+
+[33mcommit 30bae3a89c2e73eacb76a0657d4e58fb3fda18db[m
+Author: Avi <avirajs@smu.edu>
+Date:   Fri Feb 21 15:43:52 2020 -0600
+
+    Add script deploy
+
+[33mcommit 4515ef219630bf51850d53bde0142886d40a5117[m
+Author: Avi <avirajs@smu.edu>
+Date:   Fri Feb 21 15:34:20 2020 -0600
+
+    Initialize Repository
